@@ -1,0 +1,11 @@
+#Fais un programme qui permet de convertir une température de degrés Celsius en degrés Fahrenheit.
+# La formule de conversion est la suivante : (9/5) * c+ 32.
+#f est la température en Fahrenheit et C est la température en Celsius.
+
+print("Pogramme de convertion de la température du degrée Celsius en degrée Fahrenheit")
+print(" ")
+print("la formule de convertion est la suivante:F=(9/5) *c +32")
+deg_Celsius = int(input("entrez la valeur de c:"))
+deg_Fahrenheit= (9/5)*deg_Celsius +32
+print("Pour",deg_Celsius,"ºc,on obtient",deg_Fahrenheit,"ºf")
+print("fin du programme.")
