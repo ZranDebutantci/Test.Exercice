@@ -1,0 +1,16 @@
+#Ecrire un programme qui vérifie le signe produit de deux variables A et B saisies au clavier par l'utilisateur sans effectué d'opération .
+
+print("Programme Python,verifiant le signe du produit de 2 variables sans effectué d'operation")
+print("NB: "
+      "pour A=0 et B=0 , ou A ou B =0 et A ou B =0"
+      "le signe est nul.")
+
+A= int(input("La valeur de A est ->"))
+B= int(input("La valeur de B est ->"))
+
+if A > 0 and B >0 or A < 0 and B < 0 :
+    print("Le signe est positive")
+else:
+    print("le signe est negative")
+
+print("fin du programme 1")
